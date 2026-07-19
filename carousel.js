@@ -1,33 +1,33 @@
-// Member data - define once, use everywhere
-const members = [ // Creates an array to store all band member information
+// Member data
+const members = [
   {
-    name: 'Roger Bond', // The member's name
-    role: 'Lead Vocals', // The member's role in the band
+    name: 'Roger Bond', 
+    role: 'Lead Vocals', 
     image:
-      'images/Roger.jpg', // Path to the member's image
-    bio: 'The wild, shirtless lyrics of Roger Bond.', // Short biography/description
+      'images/Roger.jpg', 
+    bio: 'The wild, shirtless lyrics of Roger Bond.', 
   },
   {
-    name: 'Rory Parker', // The member's name
-    role: 'Bass Guitar', // The member's role
+    name: 'Rory Parker',
+    role: 'Bass Guitar',
     image:
-      'images/Rory.jpg', // Path to the member's image
-    bio: 'The bong-rattling bass of Rory Parker.', // Short biography
+      'images/Rory.jpg',
+    bio: 'The bong-rattling bass of Rory Parker.',
   },
   {
-    name: 'Liam Jackson', // The member's name
-    role: 'Drums', // The member's role
-    image: 'images/Liam2.jpg', // Path to the member's image
-    bio: 'And the competent drumming of Liam Jackson.', // Short biography
+    name: 'Liam Jackson',
+    role: 'Drums',
+    image: 'images/Liam2.jpg',
+    bio: 'And the competent drumming of Liam Jackson.',
   },
   {
-    name: 'Julian Zander', // The member's name
-    role: 'Lead Guitar', // The member's role
+    name: 'Julian Zander',
+    role: 'Lead Guitar',
     image:
-      'images/Julian.jpg', // Path to the member's image
-    bio: 'Julian\'s guitar riffs define our sound. His technical skill is matched.', // Short biography
+      'images/Julian.jpg',
+    bio: 'Julian\'s guitar riffs define our sound. His technical skill is matched.',
   },
-] // End of the members array
+]
 
 // Create member card HTML
 function createMemberCard(member) { // Function that accepts one member object
