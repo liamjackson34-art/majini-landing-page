@@ -31,7 +31,7 @@ const members = [
 
 // Create member card HTML
 function createMemberCard(member) { // Function that accepts one member object
-  return ` // Returns a block of HTML as a template string
+  return `
             <div class="member-card"> <!-- Main card container -->
                 <img src="${member.image}" alt="${member.name}"> <!-- Displays the member's image -->
                 <h4>${member.name}</h4> <!-- Displays the member's name -->
@@ -93,7 +93,7 @@ function renderCarousel() { // Function to build both the carousel and grid layo
 
   // Create grid for large screens
   members.forEach((member) => { // Loops through every band member
-    membersGrid.innerHTML += ` // Adds each member card to the desktop grid
+    membersGrid.innerHTML += `
                 <div class="col-lg-3 col-md-6"> <!-- Bootstrap column sizing -->
                     ${createMemberCard(member)} <!-- Inserts the member card -->
                 </div> <!-- End of grid column -->
