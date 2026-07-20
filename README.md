@@ -2,6 +2,9 @@
 
 A responsive, static landing page for Majini — a Galway-based alternative rock band. The site showcases the band, members, music, videos, and includes a contact form with Netlify form submission support.
 
+<img width="939" height="407" alt="image" src="https://github.com/user-attachments/assets/9d1d337e-0bd0-4a4f-b64f-b8428ce8d79d" />
+
+
 ## Features
 
 - Fully responsive landing page using Bootstrap 5
